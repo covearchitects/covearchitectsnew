@@ -1,12 +1,7 @@
-import React from 'react';
-
-function App() {
+export default function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>Welcome to COVE Architects</h1>
-      <p>This is your live website. More coming soon...</p>
+    <div className="min-h-screen flex items-center justify-center bg-red-100">
+      <h1 className="text-4xl font-bold text-center">Welcome to COVE Architects</h1>
     </div>
-  );
+  )
 }
-
-export default App;
